@@ -1,0 +1,84 @@
+/* InfoBox.css */
+
+.info-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .info-box {
+      position: static;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .info-box {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  .info-box div {
+    margin-bottom: 10px;
+  }
+  
+  .info-box a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .info-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .info-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* App.css */
+  
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .poster-img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+  }
+  
+  .description-container {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
